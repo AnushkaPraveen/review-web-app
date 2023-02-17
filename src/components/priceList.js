@@ -46,7 +46,7 @@ const Price = () => {
     console.log(e);
   };
   return (
-    <div>
+    <div className="main-container">
       <h1 className="canteen-title mt-5 mb-5">Canteen Price List</h1>
       <img src={require("../images/canteen1.jpg")} className="img-fluid mb-5" alt="..."></img>
       <div>
